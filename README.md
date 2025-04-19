@@ -23,14 +23,17 @@ This project automates the process of collecting resumes from emails, extracting
 ```bash
 git clone https://gitlab.com/your-repo-url.git
 cd your-repo
-
-2️⃣ Create a Virtual Environment & Install Dependencies
+```
+### 2️⃣ Create a Virtual Environment & Install Dependencies
+```bash
 $ python -m venv venv
 $ On Windows: venv\Scripts\activate
 $ pip install -r requirements.txt
+```
 
 
-3️⃣ Set up Gmail API
+### 3️⃣ Set up Gmail API
+```bash
 Follow these steps to enable the Gmail API and set up OAuth authentication:
 
 Step 1: Go to Google Cloud Console
@@ -98,9 +101,10 @@ This file will allow your application to authenticate with Gmail API.
 
 Step 8: Authorize the Application
 To authenticate your Gmail account and generate the token.json file, run the following command in your terminal:
-
-
+```
+```bash
 python gmail_auth.py
+```
 
 This will open a browser window prompting you to sign in to your Google account.
 
@@ -108,13 +112,16 @@ Once signed in, allow the app to access your Gmail account.
 
 The script will save the token.json file, which is used for making API requests without needing to log in again.
 
-4️⃣ Run the Agent
+### 4️⃣ Run the Agent
+```bash
 Once the Gmail API is set up, you can run the agent with the following command:
-
+```
+```bash
 python main.py
+```
 
-
-Usage
+### Usage
+```bash
 Resume Collection
 The script collects resumes from Gmail and saves them in the resumes/ directory.
 
@@ -123,3 +130,4 @@ Resumes are scored based on AI experience, skills, and job description match.
 
 Email Feedback
 Feedback emails are sent to the candidates with their CV score and job description match percentage.
+```
