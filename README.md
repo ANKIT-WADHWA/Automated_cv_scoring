@@ -107,7 +107,7 @@ Once signed in, allow the app to access your Gmail account.
 The script will save the token.json file, which is used for making API requests without needing to log in again.
 
 ### 4️⃣ Run the Agent
-## Once the Gmail API is set up, you can run the agent with the following command:
+Once the Gmail API is set up, you can run the agent with the following command:
 
 ```bash
 python main.py
