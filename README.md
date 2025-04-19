@@ -134,13 +134,13 @@ The system begins by checking for unread emails in the inbox. Upon finding a res
 
 After processing the first resume, the system automatically continues searching for the next unread email containing a resume. This entire process is automated, making it efficient for processing multiple resumes without manual intervention.
 
-![Result](output_img\1.png)
+![Result](output_img/1.png)
 
 ---
 
 ### 2️⃣ Gmail Preview
 Fastly sent the mail 
-![Mail Sent](output_img\2.png)
+![Mail Sent](output_img/2.png)
 
 ---
 
