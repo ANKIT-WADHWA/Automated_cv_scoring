@@ -124,3 +124,24 @@ Resumes are scored based on AI experience, skills, and job description match.
 Email Feedback
 Feedback emails are sent to the candidates with their CV score and job description match percentage.
 ```
+
+---
+## 📷 Demo Screenshots
+```bash
+### Description
+The resume used in this output is an example.
+
+The system begins by checking for unread emails in the inbox. Upon finding a resume attached to an unread email, the system processes the resume to calculate a score based on AI experience, skills, and job description match. Once the scoring is complete, the email is marked as read to prevent duplicate processing.
+
+After processing the first resume, the system automatically continues searching for the next unread email containing a resume. This entire process is automated, making it efficient for processing multiple resumes without manual intervention.
+```
+![Result](output_img\1.png)
+
+---
+
+### 2️⃣ Gmail Preview
+Fastly sent the mail 
+![Mail Sent](output_img\2.png)
+
+---
+
