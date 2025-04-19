@@ -1,5 +1,7 @@
 # Automated CV Scoring and Feedback AI Agent
-
+```bash
+with the live demo screenshots attached
+```
 ## Project Overview
 This project automates the process of collecting resumes from emails, extracting relevant information, scoring them based on the job description, and providing personalized feedback to candidates via email. The agent uses the Gmail API for email interaction and processes resumes in PDF and DOCX formats. The feedback includes details on AI experience, CV score, and job description match score.
 
